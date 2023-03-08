@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./image/bg_main.gif) center;
+}
+
+.cont {
+    max-width: 1020px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+header {
+    height: 30px;
+    background: #9E5BBA;
+    color: white;
+}
+
+.header-right {
+    display: flex;
+    justify-content: end;
+
+}
+
+.header-right a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 8px;
+    border-left: 1px solid white;
+}
+
+.side-logo {
+    display: flex;
+    justify-content: end;
+}
+
+.logo {
+    height: 110px;
+    margin-top: 20px;
+}
+
+.header-logo {
+    line-height: 110px;
+}
+
+.logo1 {
+    border-right: 2px solid#c0b5b5;
+    padding-right: 5px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.logo2 {
+    height: 30px;
+}
+
+.menu ul li a {
+    color: #333;
+    border-right: 1px solid #333;
+    padding: 5px;
+}
+
+.menu ul li a:hover {
+    background: linear-gradient(#5E72EB, #FF9190);
+}
+
+.banner {
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.slider {
+    margin-top: 10px;
+}
+
+.tab {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.tb {
+    background: #e6e1e1;
+    padding: 10px;
+}
+
+.notice ul li {
+    list-style: none;
+}
+
+.notice li a {
+    text-decoration: none;
+    border-bottom: 1px solid green;
+    color: black;
+}
+
+.notice li a:hover {
+    color: green;
+}
+
+.notice button {
+    margin-left: 250px;
+    background: linear-gradient(gray, black);
+    color: white;
+}
+
+.news {
+    margin-top: 10px;
+}
+
+.news img {
+    width: 200px;
+    height: 70px;
+}
+
+h6 {
+    background: #609513;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.card p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.s {
+    height: 40px;
+    width: 260px;
+}
+
+.side-news input {
+    width: 50px;
+    height: 40px;
+    background: rgb(241, 236, 236);
+    border: #333;
+}
+
+.side-news input:hover {
+    background: #a7a0a0;
+}
+
+.news3 {
+    margin-top: 10px;
+}
+
+.news3 img {
+
+    height: 200px;
+    width: 320px;
+}
+
+.news3 h5 {
+    margin-top: 10px;
+    color: #9E5BBA;
+}
+
+.side-video p {
+    color: #9E5BBA;
+    font-size: 14px;
+}
+
+.fb_left a {
+    font-size: 12px;
+}
+
+.fb_left p {
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+.fb_right p {
+    font-size: 9px;
+    padding: 5px;
+}
+
+.f {
+    margin-top: 100px;
+}
